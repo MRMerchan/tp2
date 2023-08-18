@@ -1,6 +1,6 @@
 .navbar{
-    height: 80px;
-    background-color: rgb(43, 103, 43);
+    height: 100px;
+    background-color: rgb(43, 103, 43)
     
 }
 
@@ -9,7 +9,9 @@ height: 60px;
 }
 
 .navbar-brand {
-    color: black !important;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
 }
 
 .nav-link{
@@ -27,35 +29,104 @@ height: 60px;
 h2{
     background-color: green;
     padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+    background-size: cover;
 }
 .container-fluid{
-    background-color:white;
-    padding: 10px;
-    margin-bottom: 0;
+    background-color:rgb(10, 74, 4);
+    padding: 20px;
+    margin-bottom:25px;
+    
 }
+
 article{
     border: 10px;  
     text-align: center;
+    text-shadow: 0 0 5px rgb(115, 112, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(62, 94, 3);
 }
 
 .frutos{
     background-image: url(img/frutossecos.jpg);
     padding: 200px;
-    
+    background-size: cover;
+       
 }
+
 .legumbres{
     background-image: url(img/legumbres.jpg);
     padding: 200px;
+    background-size: cover;
+    
 }
 .hierbas{
     background-image: url(img/hierbasmedicinales.jpg);
-    padding: 70px}
+    padding: 200px;
+    background-size: cover;
+
+}
+    
 h1{
     color: rgb(169, 195, 27);
 }
 p{
     color: rgb(9, 9, 9);
 }
+.jumbotron1{
+    height: 400px;
+    width: 100 px;
+    background-image: url(img/frutossecosacostada.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    border-bottom-left-radius: 50%;
+}
+
+.jumbotron1 p{
+
+    color: black;
+}
+
+
+.display-4{
+    color: #007bff;
+    padding: auto;
+    text-align: left;
+    text-shadow: #dff024;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: coral;
+    color: brown;
+    margin-bottom: 0; 
+}
+
+
+.nleft{
+    height: 400px;
+    background-image: url(img/frutossecosparada.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(100, 237, 132);
+    
+}
+
+.nright{
+    border: 3px solid rgb(100, 237, 132);
+    background-size: cover;
+}
+
+article{
+    border: 3px solid cornflowerblue;
+    background-color: aquamarine;
+    text-align: center;
+}
+
 
 footer{
     background-color:yellowgreen;
@@ -68,8 +139,8 @@ footer{
 
 @media only screen and (min-width:0) and (max-width:576px) {
     .navbar-collapse{
-        background-color: rgb(246, 240, 240);
-
+        background-color: rgb(236, 243, 237);
+        justify-content: flex;
     }
 }
 
