@@ -1,6 +1,11 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
 .navbar{
     height: 100px;
-    background-color: rgb(43, 103, 43)
+    background-color: rgb(43, 103, 43);
+    box-shadow: 0 0 5px #000 !important;
     
 }
 
@@ -46,26 +51,32 @@ article{
     text-shadow: 0 0 5px rgb(115, 112, 112);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: rgb(62, 94, 3);
+    background-size: cover;
 }
 
 .frutos{
-    background-image: url(img/frutossecos.jpg);
-    padding: 200px;
+    background-image: url(img/frutos.jpg);
+    padding: 20px;
     background-size: cover;
        
 }
 
 .legumbres{
-    background-image: url(img/legumbres.jpg);
-    padding: 200px;
+    background-image: url(img/garbanzos.jpg);
+    padding: 20px;
     background-size: cover;
     
 }
 .hierbas{
     background-image: url(img/hierbasmedicinales.jpg);
-    padding: 200px;
+    padding: 20px;
     background-size: cover;
 
+}
+.recetas{
+    background-image: url(img/recetas.jpg);
+    padding: 20px;
+    background-size: cover;
 }
     
 h1{
@@ -128,6 +139,7 @@ article{
 }
 
 
+
 footer{
     background-color:yellowgreen;
     color: rgb(10, 9, 9);
@@ -139,8 +151,10 @@ footer{
 
 @media only screen and (min-width:0) and (max-width:576px) {
     .navbar-collapse{
-        background-color: rgb(236, 243, 237);
-        justify-content: flex;
+        background-color: rgb(41, 52, 43);
+        justify-content: center !important;
+        display: flex;
+        
     }
 }
 
